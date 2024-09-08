@@ -1,0 +1,132 @@
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+}
+
+.container{
+    width: 400px;
+    height: min-content;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box .input-box{
+    width: 92%;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border-radius: 8px;
+    /* text-align: center; */
+}
+
+.search-box button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    /* opacity: 1;   */
+}
+
+.search-box button:hover{
+    /* opacity: .8; */
+    color: #fff;
+    background-color: #ababab;
+}
+
+.weather-body{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+
+.weather-body img{
+    width: 40%;
+}
+
+.weather-box{
+    /* margin-block: 20px; */
+    text-align: center;
+}
+
+.weather-box .temparature{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.weather-box .temparature sup{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.weather-box .description{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#features{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+}
+
+.text{
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#image{
+    width: 20%;
+    
+}
+
+.not-found{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-found img{
+    width: 80%;
+    margin-top: 10px;
+    margin-block-end: 15px;
+}
+
+.not-found h1{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #6b6b6b;
+}
+
